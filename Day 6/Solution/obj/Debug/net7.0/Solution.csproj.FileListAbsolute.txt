@@ -1,0 +1,14 @@
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\bin\Debug\net7.0\Solution.exe
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\bin\Debug\net7.0\Solution.deps.json
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\bin\Debug\net7.0\Solution.runtimeconfig.json
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\bin\Debug\net7.0\Solution.dll
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\bin\Debug\net7.0\Solution.pdb
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.AssemblyInfoInputs.cache
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.AssemblyInfo.cs
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.csproj.CoreCompileInputs.cache
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.dll
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\refint\Solution.dll
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.pdb
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\Solution.genruntimeconfig.cache
+C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 6\Solution\obj\Debug\net7.0\ref\Solution.dll
