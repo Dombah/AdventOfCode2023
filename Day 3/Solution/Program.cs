@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Drawing;
+using System.Text;
 using System.Text.RegularExpressions;
 
 string filePath = @"C:\Users\Domagoj\source\repos\AdventOfCode2023\Day 3\input.txt";
@@ -16,7 +17,6 @@ using (StreamReader reader = new StreamReader(filePath)){
         lines.Add(line);
     }
 }
-
 int width = lines[0].Length + 2; // 2 extra empty spaces
 int height = lines.Count + 2;
 char[,] map = new char[width, height];
@@ -39,6 +39,7 @@ for(int i = 0; i < width; i++)
         }
     }
 }
+/*Part 1*//*
 string temp;
 bool isGoodDigit;
 int sum = 0;
@@ -82,4 +83,51 @@ for (int i = 1; i < width; i++)
     }
     Console.WriteLine("Line: {0}, digits: {1}", arg0: i, arg1: goodDigits);
 }
-Console.WriteLine(sum);
+Console.WriteLine(sum);*/
+/*Part 2*/
+int gearRatio = 0;
+HashSet<(int, int)> gearRatios = new();
+HashSet<(int, int)> foundNumberCords = new();
+string temp = "";
+int startIndex = 0;
+for(int i = 1; i < width; i++)
+{
+    for(int j = 1; j < height; j++)
+    {
+        char c = map[i,j];
+        if(Char.IsDigit(c))
+        {
+            startIndex = j;
+            while (Char.IsDigit(c))
+            {
+                temp += c;
+                j++;
+                if (map[i - 1, j] == '*') // left
+                {
+
+                }else if (map[i + 1, j] == '*') // right
+                { 
+
+                }else if (map[i, j - 1] == '*') // up
+                { 
+
+                }else if (map[i, j + 1] == '*') // down
+                { 
+
+                }else if (map[i - 1, j - 1] == '*') // up left
+                { 
+
+                }else if (map[i - 1, j + 1] == '*') // up right
+                {
+
+                }else if (map[i + 1, j - 1] == '*') // down left
+                {
+
+                }else if (map[i + 1, j + 1] == '*') // down right
+                {
+
+                }
+            }
+        }
+    }
+}
